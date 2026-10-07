@@ -1,0 +1,26 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LocationList",
+    "pages/LocationSearch",
+    "pages/Settings",
+    "pages/BackgroundUpdatesSettings",
+    "pages/AppearanceSettings",
+    "pages/UnitSettings",
+    "pages/MainScreenSettings",
+    "pages/NotificationsSettings",
+    "pages/DebugSettings",
+    "pages/WorkerInfo",
+    "pages/ModulesSettings",
+    "pages/LocationSettings",
+    "pages/WeatherSourcesSettings",
+    "pages/DisplayManage",
+    "pages/Details",
+    "pages/About",
+    "pages/PrivacyPolicy",
+    "pages/Dependencies",
+    "pages/AlertList",
+    "pages/PreviewIcon",
+    "pages/Placeholder"
+  ]
+}

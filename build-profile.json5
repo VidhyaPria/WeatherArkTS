@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\huawei\\.ohos\\config\\default_ArkUIApp_2Ue702YhHgzGGwDkROwF52aaMflX2Mj59tDa6WcmlnQ=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A7CEB439FB1249E6479FE4CDC8B1A268D95993B8085A6A080B1BAE4C6DBA26F41B3E5CA257BB9",
+          "profile": "C:\\Users\\huawei\\.ohos\\config\\default_ArkUIApp_2Ue702YhHgzGGwDkROwF52aaMflX2Mj59tDa6WcmlnQ=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\huawei\\.ohos\\config\\default_ArkUIApp_2Ue702YhHgzGGwDkROwF52aaMflX2Mj59tDa6WcmlnQ=.p12",
+          "storePassword": "0000001A48B80F4CCF22DA71DECB7FB0F92ECBB6B20FCDB0E24336518632DAF17252ECA1D1A657DED4C3"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.1.1(24)",
+        "compatibleSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
